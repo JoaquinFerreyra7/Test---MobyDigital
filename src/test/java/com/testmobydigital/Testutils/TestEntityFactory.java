@@ -15,7 +15,7 @@ public class TestEntityFactory {
                 .lastname("Ferreyra")
                 .documentType("DNI")
                 .documentNumber(33345)
-                .birthdate(new Date())
+                .birthdate(null)
                 .build();
         return candidateDto;
     }
@@ -26,7 +26,7 @@ public class TestEntityFactory {
                 .lastname("Ferreyra")
                 .documentType("DNI")
                 .documentNumber(33345)
-                .birthdate(new Date())
+                .birthdate(null)
                 .build();
         return candidate;
     }

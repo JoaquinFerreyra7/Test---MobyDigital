@@ -7,10 +7,10 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
-//@SpringBootApplication
-@Configuration
-@EnableAutoConfiguration
-@ComponentScan
+@SpringBootApplication
+//@Configuration
+//@EnableAutoConfiguration
+//@ComponentScan
 @EnableSwagger2
 public class TestMobydigitalApplication {
 
